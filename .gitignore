@@ -1,0 +1,8 @@
+s3skiddie.egg-info/
+*.pyc
+__pycache__/
+*.un~
+.idea/
+venv/
+build/
+dist/
