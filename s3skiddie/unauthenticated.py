@@ -1,5 +1,8 @@
-import urllib
-import urllib.parse
+try:
+    import urllib
+    import urllib.parse
+except ImportError:
+    import urlparse
 import bs4, errno, time
 from clint.textui import puts, colored, indent, progress
 from s3skiddie.util import buildRequest
